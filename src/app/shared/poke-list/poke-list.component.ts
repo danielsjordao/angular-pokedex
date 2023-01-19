@@ -14,25 +14,26 @@ export class PokeListComponent implements OnInit {
   public apiError: boolean = false;
   
 
-  constructor (
+  constructor(
     private pokeApiService: PokeApiService
   ) { }
 
   ngOnInit(): void {
-    this.pokeApiService.apiListAllPokemons.subscribe(
-      res => {
+    this.pokeApiService.apiListAllPokemons.subscribe({
+      next: (res) => {
         this.setAllPokemons = res.results;
-        this.getAllPokemons = res.setAllPokemons;                       
+        this.getAllPokemons = this.setAllPokemons;                       
       },
-      error => {
+      error: (err) => {
         this.apiError = true;
       }
-    );
+  });
   }
   public getSearch(value: string){
     const filter = this.setAllPokemons.filter((res:any) =>{
       return !res.name.indexOf(value.toLowerCase());
     });
+    
     this.getAllPokemons = filter;
   }
 }

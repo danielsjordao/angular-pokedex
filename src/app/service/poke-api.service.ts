@@ -11,7 +11,7 @@ import { map, tap } from 'rxjs/operators';
 })
 export class PokeApiService {
 
-  private url: string = 'https://pokeapi.co/api/v2/pokemon/?offset=0&limit=100';
+  private url: string = 'https://pokeapi.co/api/v2/pokemon/?offset=0&limit=500';
   constructor(
     private http: HttpClient
   ) { }

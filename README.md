@@ -1,6 +1,8 @@
 # Inserir imagens e explicações acerca do projeto
 
-# Pokedex
+# Pokedex Project
+
+A proposta do projeto inicial era desenvolver uma SPA (Single Page Application) fazendo o consumo de API com o BD de 100 Pokemons, entretanto, ao realizar testes preferi atingir o número de 500 Pokemons. Poderia inserir até 700, mas comprometeria a velocidade da página. Desta forma, mantive em 500 pokemons não inteferindo muito no desempenho.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 

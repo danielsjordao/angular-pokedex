@@ -1,5 +1,8 @@
 # Imagens e explicações acerca do projeto
 
+# Figma
+https://www.figma.com/file/AZ6mvD0UbYSqVBVoSIptu1/Pokedesk?node-id=26%3A0&t=wzjhbk7zFBAe75k5-0
+
 ## Tela Inicial
 ![image](https://user-images.githubusercontent.com/101356855/213863842-482ef6f7-31fb-4693-8e4e-d198a326f413.png)
 
@@ -15,6 +18,8 @@
 
 A proposta do projeto inicial era desenvolver uma SPA (Single Page Application) fazendo o consumo de API com o BD de 100 Pokemons, entretanto, ao realizar testes preferi atingir o número de 500 Pokemons. Poderia inserir até 700, mas comprometeria a velocidade da página. Desta forma, mantive em 500 pokemons não inteferindo muito no desempenho.
 O Angular é um Framework para desenvolvimento de SPA (Single Page Application) baseado em componentes.
+Para o projeto foi utilizada para realização do consumo de API o site PokeApi
+- https://pokeapi.co/docs/v2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 

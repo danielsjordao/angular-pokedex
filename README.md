@@ -1,4 +1,4 @@
-# Inserir imagens e explicações acerca do projeto
+# Imagens e explicações acerca do projeto
 
 ## Tela Inicial
 ![image](https://user-images.githubusercontent.com/101356855/213863842-482ef6f7-31fb-4693-8e4e-d198a326f413.png)

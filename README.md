@@ -1,4 +1,13 @@
-# Imagens e explicações acerca do projeto
+# Pokedex Project
+
+A proposta do projeto inicial era desenvolver uma SPA (Single Page Application) fazendo o consumo de API com o BD de 100 Pokemons, entretanto, ao realizar testes preferi atingir o número de 500 Pokemons. Poderia inserir até 700, mas comprometeria a velocidade da página. Desta forma, mantive em 500 pokemons não inteferindo muito no desempenho.
+O Angular é um Framework para desenvolvimento de SPA (Single Page Application) baseado em componentes.
+Para o projeto foi utilizada para realização do consumo de API o site PokeApi
+- https://pokeapi.co/docs/v2
+
+# Explicações acerca do projeto
+
+Projeto desenvolvido em TypeScript, JavaScript, HTML, SCSS usando o FrameWork Angular na construção da Pokedex e fazendo o consumo de API da PokeApi.
 
 # Figma
 https://www.figma.com/file/AZ6mvD0UbYSqVBVoSIptu1/Pokedesk?node-id=26%3A0&t=wzjhbk7zFBAe75k5-0
@@ -14,12 +23,6 @@ https://www.figma.com/file/AZ6mvD0UbYSqVBVoSIptu1/Pokedesk?node-id=26%3A0&t=wzjh
 - Ao clicar no Pokemon pesquisado, o usuário é direcionado na mesma página (SPA) com outra Interface para ver detalhes do Pokemon.
 ![image](https://user-images.githubusercontent.com/101356855/213864029-4c0347fa-6db0-42d1-ba9d-aafc4603a02c.png)
 
-# Pokedex Project
-
-A proposta do projeto inicial era desenvolver uma SPA (Single Page Application) fazendo o consumo de API com o BD de 100 Pokemons, entretanto, ao realizar testes preferi atingir o número de 500 Pokemons. Poderia inserir até 700, mas comprometeria a velocidade da página. Desta forma, mantive em 500 pokemons não inteferindo muito no desempenho.
-O Angular é um Framework para desenvolvimento de SPA (Single Page Application) baseado em componentes.
-Para o projeto foi utilizada para realização do consumo de API o site PokeApi
-- https://pokeapi.co/docs/v2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 

@@ -1,6 +1,7 @@
 # Pokedex Project
 
-A proposta do projeto inicial era desenvolver uma SPA (Single Page Application) fazendo o consumo de API com o BD de 100 Pokemons, entretanto, ao realizar testes preferi atingir o número de 500 Pokemons. Poderia inserir até 700, mas comprometeria a velocidade da página. Desta forma, mantive em 500 pokemons não inteferindo muito no desempenho.
+A proposta do projeto inicial era desenvolver uma SPA (Single Page Application) fazendo o consumo de API com o BD de 100 Pokemons, entretanto, ao realizar testes preferi atingir o número de 500 Pokemons. Poderia inserir até 700, mas comprometeria a resposta à pesquisa da página. Desta forma, mantive em 500 pokemons não inteferindo muito no desempenho.
+
 O Angular é um Framework para desenvolvimento de SPA (Single Page Application) baseado em componentes.
 Para o projeto foi utilizada para realização do consumo de API o site PokeApi
 - https://pokeapi.co/docs/v2

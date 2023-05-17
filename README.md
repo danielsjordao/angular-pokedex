@@ -4,6 +4,8 @@ A proposta do projeto inicial era desenvolver uma SPA (Single Page Application) 
 
 O Angular é um Framework para desenvolvimento de SPA (Single Page Application) baseado em componentes.
 Para o projeto foi utilizada para realização do consumo de API o site PokeApi
+
+## Consumo de API
 - https://pokeapi.co/docs/v2
 
 # Explicações acerca do projeto
